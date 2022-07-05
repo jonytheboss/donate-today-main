@@ -137,7 +137,7 @@ hr {
 }
 
 .form-container {
-    height: 400px;
+    height: 500px;
     width: 70%;
     background-color: silver;
     border: 2px tomato solid;
@@ -152,5 +152,83 @@ hr {
     margin: 20px 20px;
     padding: 20px 20px;
     width: 50%;
+    height: 400px;
+}
+
+.payment-img {
+    height: 70%;
+}
+
+.Submit {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.bottom-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Subscribe {
+    box-shadow: 10px 10px 40px blue;
+    margin: auto;
+    margin-top: 50px;
+    height: 150px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: aqua;
+    border: 2px gold solid;
+}
+
+.input-subscribe {
+    margin-top: 60px;
+}
+
+#inner {
+    height: 30px;
+    width: 40%;
+    margin-right: -7px;
+    background-color: lime;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#inner-subscribe {
+    height: 36px;
+    width: 20%;
+    background-color: darkorange;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+footer {
+    height: 180px;
+    width: auto;
+    background-color: #000033;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    padding-top: 50px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.footer-h4 {
+    color: white;
+    font-weight: 500;
 
 }
