@@ -56,7 +56,7 @@
         <a class="link-button" href="">Donate Now</a>
     </section>
     <section class="section-three">
-        <h1 style="font-size: 40px;">Our Donate Plan</h1>
+        <h1 id="section-three-h1">Our Donate Plan</h1>
         <p class="p-middle">There are many ways you can help make a difference for children and girls. For example, you
             can make a
             one-time or monthly donation, buy a Gift of Hope, sponsor a child or make a lasting impact with a legacy
@@ -84,15 +84,36 @@
             </div>
         </div>
     </section>
-    <div>
-        <h1>The form element</h1>
-        <form action="/action_page.php">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
+    <h1 class="one-h1">Input your information</h1>
+    <div class="form-container">
+        <div class="flexible-container">
+            <form class="form-inner" action="">
+                <label for="">First name:</label>
+                <input type="text"><br><br>
+                <label for="">Last name:</label>
+                <input type="text"><br><br>
+                <label for="">Email:</label>
+                <input type="email"><br><br>
+                <label for="">Date of Birth:</label>
+                <input type="date"><br><br>
+                <label for="">Phone Number:</label>
+                <input type="number"><br><br>
+
+                <label for="">Gender</label><br>
+                <input type="radio">
+                <label for="">Male</label><br>
+                <input type="radio">
+                <label for="">Femail</label><br>
+
+            </form>
+            <form class="form-inner" action="">
+
+                <img class="payment-img" src="images/payment 2.jpg" alt="">
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
 
 
 

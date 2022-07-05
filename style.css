@@ -57,6 +57,7 @@ p {
 .p-middle {
     margin-left: 250px;
     margin-right: 250px;
+    text-align: center;
 }
 
 .float-container-count {
@@ -86,18 +87,70 @@ hr {
     margin-top: 130px;
 }
 
+#section-three-h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-three-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    clear: both;
+}
+
 .food-aria {
     background-color: palegreen;
-    padding: 15px;
+    padding: 35px 15px;
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    width: 33.33%;
+    height: 350px;
+
 
 }
 
 .shelter-aria {
     background-color: aqua;
-    padding: 15px;
+    padding: 35px 15px;
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    width: 33.33%;
+    height: 350px;
 }
 
 .frame-aria {
     background-color: chartreuse;
-    padding: 15px;
+    padding: 35px 15px;
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    width: 33.33%;
+    height: 350px;
+}
+
+.one-h1 {
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+}
+
+.form-container {
+    height: 400px;
+    width: 70%;
+    background-color: silver;
+    border: 2px tomato solid;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.form-inner {
+    border: 2px green solid;
+    border-radius: 15px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    width: 50%;
+
 }
